@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+</h:head>
+<h:body>
+<ui:composition template="../common/layout.xhtml">
+		<ui:define name="homePage">
+			<br/><br/>
+			<h:outputText styleClass="postHeader" value="New Year fun begins..."></h:outputText>
+			<h:outputLink value="../common/homePage.xhtml">
+				<h:outputText styleClass="homePageLink" value="Home"></h:outputText>
+			</h:outputLink>
+			<br/><br/>
+			<h:outputText styleClass="postedDate" value="-December 27,2013"/>
+			<br/><br/>
+				<p class="content">
+					At last New year fun begins. All my friends are visiting New Jersey. Here we go to Pokono mountains for some adventure.
+					Skiing, Snow tubing ... sounds fun.<br/> <br/> 
+					Planning to have a big party on new year eve in New York city - <strong>A city that never sleeps</strong>. 
+					Masquerade Party... now that sounds interesting. put on the dancing shoes and party all the night. 
+				</p>
+		</ui:define>
+</ui:composition>
+</h:body>
+</html>

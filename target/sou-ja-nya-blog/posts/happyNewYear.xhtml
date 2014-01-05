@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+</h:head>
+<h:body>
+	<ui:composition template="../common/layout.xhtml">
+			<ui:define name="homePage">
+					<h:outputText styleClass="postHeader" value="Happy New Year 2014!!!"></h:outputText>
+					<h:outputLink value="../common/homePage.xhtml">
+						<h:outputText styleClass="homePageLink" value="Home"></h:outputText>
+					</h:outputLink>
+					<br/><br/>
+					<h:outputText styleClass="postedDate" value="-January 02,2014"/>
+					<br/><br/>
+					
+					<p class="content">
+						Wish you and your family a very happy and prosperous new year. 
+					</p>
+					<h:graphicImage style="margin-left:200px" url="../resources/images/happy_new_year_2014.jpg" width="1000" height="500"/>
+			</ui:define>
+	</ui:composition>
+</h:body>
+</html>

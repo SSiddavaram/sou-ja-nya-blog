@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<head>
+</head>
+<body>
+	<ui:composition template="../common/layout.xhtml">
+		<ui:define name="homePage">
+			<h:form>
+				<br/><br/>
+				<h:panelGroup layout="block" styleClass="list-item">
+					<h:graphicImage url="../resources/images/doc_icon.jpg" width="30" height="30"/>
+					<p:spacer width="10"/>
+					<h:outputLink value="../posts/happyNewYear.xhtml" styleClass="post-link-text">
+							<h:outputText value="Happy New year 2014"  styleClass="post-Link"></h:outputText>
+					</h:outputLink>
+					<p:spacer width="300" height="0"/>
+					<h:outputText styleClass="postedDate" value="January 2,2014"/>
+				</h:panelGroup>
+				
+				<h:panelGroup layout="block" styleClass="list-item">
+					<h:graphicImage url="../resources/images/doc_icon.jpg" width="30" height="30"/>
+					<p:spacer width="10"/>
+					<h:outputLink value="../posts/newYearFun.xhtml" styleClass="post-link-text">
+							<h:outputText value="New year fun begins..."  styleClass="post-Link"></h:outputText>
+					</h:outputLink>
+					<p:spacer width="290" height="0"/>
+					<h:outputText styleClass="postedDate" value="December 27,2013"/>
+				</h:panelGroup>
+				
+				<h:panelGroup layout="block" styleClass="list-item">
+					<h:graphicImage url="../resources/images/doc_icon.jpg" width="30" height="30"/>
+					<p:spacer width="10"/>
+					<h:outputLink value="../posts/christmas.xhtml" styleClass="post-link-text">
+							<h:outputText value="Merry Christmas 2013"  styleClass="post-Link"></h:outputText>
+					</h:outputLink>
+					<p:spacer width="300" height="0"/>
+					<h:outputText styleClass="postedDate" value="December 25,2013"/>
+				</h:panelGroup>
+			</h:form>
+		</ui:define>
+	</ui:composition>
+</body>
+</html>

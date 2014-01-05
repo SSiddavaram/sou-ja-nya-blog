@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+</h:head>
+<h:body>
+	<ui:composition template="../common/layout.xhtml">
+		<ui:define name="homePage">
+			<br/><br/>
+			<h:outputText styleClass="postHeader" value="Merry Christmas"></h:outputText>
+			<h:outputLink value="../common/homePage.xhtml">
+				<h:outputText styleClass="homePageLink" value="Home"></h:outputText>
+			</h:outputLink>
+			<br/><br/>
+			<h:outputText styleClass="postedDate" value="-December 25,2013"/>
+			<br/><br/>
+			<h:graphicImage styleClass="list-item" url="../resources/images/christmas.jpg"/>&nbsp;&nbsp;&nbsp;
+			<h:graphicImage url="../resources/images/santa.jpg" width="250" height="180"/>
+			<br/>
+			<h:graphicImage style="margin-left: 450px" url="../resources/images/christmas2.jpg" />
+			<br/><br/><br/>
+			<p class="content">Merry Christmas everyone!!!. Wishing you and your family lots of happiness.</p>
+		</ui:define>
+	</ui:composition>
+</h:body>
+</html>
